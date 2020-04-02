@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!-- 1st -->
+    <LinearLayout
+        android:id="@+id/first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/image_height"
+            android:layout_weight="1"
+            android:src="@mipmap/nigerian_flag" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/image_height"
+            android:layout_weight="1"
+            android:src="@mipmap/android" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/image_height"
+            android:layout_weight="1"
+            android:src="@mipmap/apple" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/image_height"
+            android:layout_weight="1"
+            android:src="@mipmap/profile" />
+    </LinearLayout>
+
+    <!-- 2nd -->
+    <LinearLayout
+        android:id="@+id/second_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_layout"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="@string/name"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="@string/slack_id"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="@string/email"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- 3rd -->
+    <ScrollView
+        android:id="@+id/third_layout"
+        android:layout_width="match_parent"
+        android:layout_height="391dp"
+        android:layout_below="@id/second_layout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:text="@string/likes"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/likes_array"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:fontFamily="monospace"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:text="@string/dislikes"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/dislikes_array"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:text="@string/hobbies"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/hobbies_array"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- 4th -->
+    <LinearLayout
+        android:id="@+id/fourth_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/image_height"
+            android:layout_weight="1"
+            android:src="@mipmap/twitter" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/image_height"
+            android:layout_weight="1"
+            android:src="@mipmap/linkedin" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/image_height"
+            android:layout_weight="1"
+            android:src="@mipmap/google" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Start NG TaskTwo</string>
+    <string name="name">MBAYA Emmanuel Baldwin</string>
+    <string name="slack_id">emmaraj</string>
+    <string name="email">emmanuelbaldwin@gmail.com</string>
+
+    <!-- Likes-->
+    <string name="likes">Likes</string>
+    <string-array name="likes_array">
+        <item>The word “darling”</item>
+        <item>Talking to strangers</item>
+        <item>Tulips</item>
+        <item>The 90s</item>
+        <item>Starry nights</item>
+        <item>Dogs</item>
+        <item>Libraries</item>
+        <item>Winning</item>
+        <item>Late nights</item>
+    </string-array>
+
+    <!-- Dislikes-->
+    <string name="dislikes">Dislikes</string>
+    <string-array name="dislikes_array">
+        <item>Being late”</item>
+        <item>Needles</item>
+        <item>Strong scents</item>
+        <item>Bad customer service</item>
+        <item>Lazy People</item>
+        <item>Sneakers</item>
+        <item>Hospitals</item>
+        <item>People trying to control me</item>
+        <item>Invasion of privacy</item>
+    </string-array>
+    <!-- Hobbies-->
+    <string name="hobbies">Hobbies</string>
+    <string-array name="hobbies_array">
+        <item>Writing</item>
+        <item>Coding</item>
+        <item>Computer Games</item>
+        <item>Listening to Music</item>
+        <item>Catering</item>
+        <item>Wine Makign</item>
+        <item>Graphic Design</item>
+        <item>Cooking</item>
+        <item>Teaching</item>
+    </string-array>
+</resources>
